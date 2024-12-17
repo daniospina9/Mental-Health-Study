@@ -2,10 +2,6 @@ import utils
 import read_csv
 import charts
 
-'''
-With this proyect you can graph the effectiveness of different therapies in the mental health of 500 people that have suffered different disorders. To get it, you need filter the gender, the diagnosis, and finally the therapy type. However, you can analize all data in every category.
-'''
-
 def run():
   
   data = read_csv.read_csv('./app04/data.csv')
