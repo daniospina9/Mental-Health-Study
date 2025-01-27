@@ -1,4 +1,11 @@
-# Mental Health Study
+# Instructions
+To run the program you need follow the next instructions in the terminal:
+```sh
+python3 main.py
+```
+Remember to have the matplotlib moduls to can run the program.
+
+## Mental Health Study
 With this project you can graph the effectiveness of different therapies in the mental health of 500 people that have suffered different disorders. To get it, you need filter the gender, the diagnosis, and finally the therapy type. However, you can analize all data in every category.
 
 ## Code description
