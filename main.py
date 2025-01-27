@@ -4,7 +4,7 @@ import charts
 
 def run():
   
-  data = read_csv.read_csv('./app04/data.csv')
+  data = read_csv.read_csv('data.csv')
 
   # filter for age
   while True:
