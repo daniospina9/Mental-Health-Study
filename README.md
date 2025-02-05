@@ -6,6 +6,7 @@ cd app
 python3 -m venv env
 source env/bin/activate
 pip3 install -r requirements.txt
+sudo apt install imview
 python3 main.py
 ```
 After you complete all parameters of the program, you need follow the nex intruction to see the graph
