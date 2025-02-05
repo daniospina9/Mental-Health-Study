@@ -1,6 +1,10 @@
 # Instructions
 To run the program you need follow the next instructions in the terminal:
 ```sh
+git clone
+pyhton3 -m venv env
+source env/bin/activate
+pip3 install -r requirements.txt
 python3 main.py
 ```
 Remember to have the matplotlib moduls to can run the program.
