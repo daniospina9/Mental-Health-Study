@@ -2,12 +2,16 @@
 To run the program you need follow the next instructions in the terminal:
 ```sh
 git clone
-pyhton3 -m venv env
+python3 -m venv env
 source env/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
 ```
-Remember to have the matplotlib moduls to can run the program.
+After you complete all parameters of the program, you need follow the nex intruction to see the graph
+```sh
+cd imgs
+imview pie.png
+```
 
 ## Mental Health Study
 With this project you can graph the effectiveness of different therapies in the mental health of 500 people that have suffered different disorders. To get it, you need filter the gender, the diagnosis, and finally the therapy type. However, you can analize all data in every category.
